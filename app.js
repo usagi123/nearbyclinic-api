@@ -12,8 +12,7 @@ var router = express.Router();
 
 
 //you need to update wp with your own database name
-var db = monk('mongodb://imhikarucat:12345abcde@ds127944.mlab.com:27944/clinics_android_asn2');
-
+var db = monk('mongodb://imhikarucat:12345abcde@ds153730.mlab.com:53730/clinic_asn2_custom');
 
 //use objects in app
 app.use(bodyParser.json());
