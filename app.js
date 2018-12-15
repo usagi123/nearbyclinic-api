@@ -6,7 +6,7 @@ var monk = require('monk');
 var path = require('path');
 var http = require('http').Server(app);
 
-//create neccessary objects
+//create necessary objects
 var app = express();
 var router = express.Router();
 
@@ -49,8 +49,8 @@ router.put('/clinics/:id', function(req, res){
 			name: req.body.name, 
 			rating: req.body.rating,
 			address: req.body.address,
-			latitute: req.body.latitute,
-			longitute: req.body.longitute,
+			latitude: req.body.latitude,
+			longitude: req.body.longitude,
 			impression: req.body.impression,
 			lead_physician: req.body.lead_physician,
 			specialization: req.body.specialization,
